@@ -36,7 +36,9 @@ export function SignUpPage({ onSignInClick }) {
       <div
         className="flex-1 bg-contain bg-no-repeat"
         style={{
-          backgroundImage: `url(${backgroundImage2})`,
+          backgroundImage: `url(https://wallpaperaccess.com/full/3718212.jpg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       ></div>
 
@@ -98,8 +100,6 @@ export function SignUpPage({ onSignInClick }) {
             onChange={(event) => setAgreeToTerms(event.target.checked)}
           />
           
-         
-
         </Paper>
       </div>
     </div>
